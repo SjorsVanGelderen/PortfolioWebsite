@@ -31,7 +31,7 @@ I write C++!
 
 int main()
 {
-  std::cout << "Hello C++" << std::endl;
+  std::cout << "Hello, C++!" << std::endl;
   return EXIT_SUCCESS;
 }
 ```
@@ -40,15 +40,11 @@ I write C#!
 ```
 using System;
 
-namespace Main
+public class Hello
 {
-  public class Main
+  public static void Main()
   {
-    public int main()
-    {
-      Console.WriteLine("Hello C#!");
-      return 0;
-    }
+      Console.WriteLine("Hello, C#!");
   }
 }
 ```
@@ -56,14 +52,14 @@ namespace Main
 I write Rust!
 ```
 fn main() {
-  println!("Hello Rust!");
+  println!("Hello, Rust!");
 }
 ```
 
 I write F#!
 ```
 let main args =
-  printfn "Hello F#!"
+  printfn "Hello, F#!"
   0
 ```
 
@@ -72,7 +68,7 @@ I write Elm!
 import Html exposing (text)
 
 main =
-  text "Hello Elm!"
+  text "Hello, Elm!"
 
 -- Incidentally, this website was written using Elm!
 -- Check out the source code on my GitHub!
